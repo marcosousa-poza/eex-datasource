@@ -22,17 +22,24 @@ Why use it?
 Installation
 ------------
 
-Install from your organization's package repository:
+Install from GitHub Releases:
 
 .. code-block:: bash
 
-   python -m pip install eex-datasource
+   # With uv
+   uv add "eex-datasource @ git+https://github.com/Ganeos/eex-datasource.git@v0.1.0"
+
+   # With Pipenv
+   pipenv install "eex-datasource @ git+https://github.com/Ganeos/eex-datasource.git@v0.1.0"
+
+   # Temporary installation
+   uv pip install "eex-datasource @ git+https://github.com/Ganeos/eex-datasource.git@v0.1.0"
 
 Install pandas support when DataFrame conversion is needed:
 
 .. code-block:: bash
 
-   python -m pip install "eex-datasource[pandas]"
+   uv add "eex-datasource[pandas] @ git+https://github.com/Ganeos/eex-datasource.git@v0.1.0"
 
 Quick start
 -----------
@@ -248,8 +255,7 @@ Development
    uv run pytest
 
 Pull requests run these checks once on Python 3.12. Distributions are built by GitHub
-Actions and published from GitHub Releases using Trusted Publishing; maintainers do not
-store PyPI API tokens in GitHub.
+Actions and published to GitHub Releases.
 
 Security and data handling
 --------------------------
