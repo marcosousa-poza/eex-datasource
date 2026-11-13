@@ -27,19 +27,19 @@ Install from GitHub Releases:
 .. code-block:: bash
 
    # With uv
-   uv add "eex-datasource @ git+https://github.com/Ganeos/eex-datasource.git@v0.1.0"
+   uv add "eex-datasource @ git+https://github.com/Open-Energy-Platform-AG/eex-datasource.git@v0.1.0"
 
    # With Pipenv
-   pipenv install "eex-datasource @ git+https://github.com/Ganeos/eex-datasource.git@v0.1.0"
+   pipenv install "eex-datasource @ git+https://github.com/Open-Energy-Platform-AG/eex-datasource.git@v0.1.0"
 
    # Temporary installation
-   uv pip install "eex-datasource @ git+https://github.com/Ganeos/eex-datasource.git@v0.1.0"
+   uv pip install "eex-datasource @ git+https://github.com/Open-Energy-Platform-AG/eex-datasource.git@v0.1.0"
 
 Install pandas support when DataFrame conversion is needed:
 
 .. code-block:: bash
 
-   uv add "eex-datasource[pandas] @ git+https://github.com/Ganeos/eex-datasource.git@v0.1.0"
+   uv add "eex-datasource[pandas] @ git+https://github.com/Open-Energy-Platform-AG/eex-datasource.git@v0.1.0"
 
 Quick start
 -----------

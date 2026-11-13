@@ -24,9 +24,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Ganeos/eex-datasource"
-Repository = "https://github.com/Ganeos/eex-datasource"
-Issues = "https://github.com/Ganeos/eex-datasource/issues"
+Homepage = "https://github.com/Open-Energy-Platform-AG/eex-datasource"
+Repository = "https://github.com/Open-Energy-Platform-AG/eex-datasource"
+Issues = "https://github.com/Open-Energy-Platform-AG/eex-datasource/issues"
 
 [project.optional-dependencies]
 pandas = ["pandas>=2"]
